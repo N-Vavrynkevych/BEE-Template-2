@@ -1,0 +1,141 @@
+body,
+p,
+h1,
+h2,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #EBEBEB;
+  font-family: sans-serif;
+}
+
+header,
+footer {
+  background-color: #242424;
+}
+
+.menu {
+  max-width: 1100px;
+}
+
+header nav {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+header nav a {
+  padding: 0 20px;
+  font-size: 19px;
+  box-sizing: border-box;
+}
+
+nav a:hover, nav a.active {
+  background-color: #585858;
+  line-height: 50px;
+}
+
+nav a:link, nav a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.wrapper aside {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 0 20px;
+  box-sizing: border-box;
+}
+.wrapper aside h2 {
+  font-size: 17px;
+  margin: 0px 0px 10px 0px;
+}
+.wrapper aside ul {
+  list-style-type: none;
+}
+.wrapper aside p, .wrapper aside li {
+  font-size: 13px;
+  text-align: justify;
+  margin: 0px 0px 10px 0px;
+}
+.wrapper aside img {
+  max-height: 168px;
+  min-width: 270px;
+  display: inline-block;
+  margin: 10px 0;
+}
+.wrapper main {
+  min-height: 600px;
+  padding: 20px 0;
+  text-align: justify;
+  max-width: 495px;
+  box-sizing: border-box;
+}
+.wrapper main h1 {
+  font-size: 21px;
+}
+.wrapper main h2 {
+  font-size: 19px;
+  margin: 20px 0;
+}
+.wrapper main p {
+  font-size: 13px;
+  margin: 10px 0;
+}
+.wrapper main img {
+  min-width: 495px;
+  max-height: 375px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  text-align: center;
+  color: #ffffff;
+  min-height: 281px;
+}
+footer .footer__center {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 1100px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+footer .footer__center .footer__content {
+  max-width: 250px;
+  background-color: #EBEBEB;
+  color: #000000;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+footer .footer__center .footer__content h2 {
+  margin: 15px 0px 10px 0px;
+}
+footer .footer__center .footer__content p {
+  font-size: 12px;
+}
+footer .footer__center .footer__content hr {
+  min-width: 248px;
+}
+footer .copyright {
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
